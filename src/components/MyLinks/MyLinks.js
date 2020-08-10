@@ -1,4 +1,5 @@
 import React from 'react';
+import "./MyLinks.css";
 
 export default function MyLinks() {
   return (
@@ -9,7 +10,7 @@ export default function MyLinks() {
         rel="noopener noreferrer"
         className="mx-4"
       >
-        <i className="fab fa-linkedin fa-2x"></i>
+        <i className="fab fa-linkedin fa-4x icon"></i>
       </a>
       <a
         href="https://github.com/Kaleighspurio"
@@ -17,7 +18,7 @@ export default function MyLinks() {
         rel="noopener noreferrer"
         className="mx-4"
       >
-        <i className="fab fa-github-square fa-2x"></i>
+        <i className="fab fa-github-square fa-4x icon"></i>
       </a>
       <a
         href="https://github.com/Kaleighspurio"
@@ -25,7 +26,7 @@ export default function MyLinks() {
         rel="noopener noreferrer"
         className="mx-4 mb-6"
       >
-        <i className="far fa-file fa-2x"></i>
+        <i className="fas fa-file fa-4x icon"></i>
       </a>
     </div>
   );

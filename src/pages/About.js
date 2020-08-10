@@ -3,9 +3,16 @@ import MyLinks from '../components/MyLinks/MyLinks';
 
 export default function About() {
   return (
-      <section className="section pt-1">
-        <div className="container">
-          <h1 className="title">Kaleigh Spurio</h1>
+    <section className="section pt-1">
+      <div className="container columns">
+        <div className="column">
+          <img
+            src={process.env.PUBLIC_URL + '/images/MyPicture.jpg'}
+            alt="Me"
+            width="300px"
+          />
+        </div>
+        <div className="column">
           <p>
             My name is Kaleigh Spurio and I am excited to delve down a career
             path as a Full Stack Web Developer. I hold a Bachelor of Arts in
@@ -25,8 +32,10 @@ export default function About() {
             excited to leverage my skills and in a fast-paced and collaborative
             team of developers.
           </p>
+
           <MyLinks />
         </div>
-      </section>
+      </div>
+    </section>
   );
 }

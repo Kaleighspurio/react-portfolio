@@ -1,0 +1,26 @@
+
+.navtabs {
+   text-align: right;
+    padding: 0px 35px;
+    margin: 0
+}
+
+.link {
+    color: #e393fc;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+    border: 1px solid #e393fc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.img {
+    min-width: 1000px;
+}
+
+
+.link:hover {
+    color: #52bdd0;
+    border: 1px solid #52bdd0;
+}
