@@ -3,10 +3,9 @@ import MyLinks from '../components/MyLinks';
 
 export default function About() {
   return (
-    <body>
-      <section class="section">
-        <div class="container">
-          <h1 class="title">About</h1>
+      <section className="section">
+        <div className="container">
+          <h1 className="title">About</h1>
           <p>
             My name is Kaleigh Spurio and I am excited to delve down a career
             path as a Full Stack Web Developer. I hold a Bachelor of Arts in
@@ -29,6 +28,5 @@ export default function About() {
           <MyLinks />
         </div>
       </section>
-    </body>
   );
 }

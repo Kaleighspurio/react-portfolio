@@ -1,5 +1,12 @@
 import React from 'react';
 
 export default function Header() {
-    return <h1>HEader</h1>
+  return (
+    <section className="hero is-medium">
+      <img
+        src={process.env.PUBLIC_URL + './images/HeaderImage.jpg'}
+        alt="Open laptop"
+      />
+    </section>
+  );
 }
