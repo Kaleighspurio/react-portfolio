@@ -3,9 +3,9 @@ import MyLinks from '../components/MyLinks';
 
 export default function About() {
   return (
-      <section className="section">
+      <section className="section pt-1">
         <div className="container">
-          <h1 className="title">About</h1>
+          <h1 className="title">Kaleigh Spurio</h1>
           <p>
             My name is Kaleigh Spurio and I am excited to delve down a career
             path as a Full Stack Web Developer. I hold a Bachelor of Arts in

@@ -4,7 +4,7 @@ import Project from '../components/Project';
 export default function Portfolio() {
     return (
     <div>
-        <p>Portfolio</p>
+        <h2 className="title is-3">My Projects</h2>
         <Project />
     </div>
     

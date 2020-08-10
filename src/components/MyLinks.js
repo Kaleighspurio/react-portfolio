@@ -23,7 +23,7 @@ export default function MyLinks() {
         href="https://github.com/Kaleighspurio"
         target="_blank"
         rel="noopener noreferrer"
-        className="mx-4"
+        className="mx-4 mb-6"
       >
         <i className="far fa-file fa-2x"></i>
       </a>
