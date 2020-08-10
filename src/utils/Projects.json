@@ -58,7 +58,7 @@
   {
     "id": 4,
     "projectName": "Employee Directory",
-    "projectDescription": "This is a simple React application that displays a table of employee data that can be filtered by employee role and sorted alphabetically or by id number.",
+    "projectDescription": "This is a simple React application that displays a table of employee data that can be filtered by employee role and sorted alphabetically or by id number.  It was the very first React app I created and utilizes some simple sorting and filtering.  This application gets its data from a json file, but could be easily adapted to recieve data from an API.",
     "repoLink": "https://github.com/Kaleighspurio/react-employee-directory",
     "deployedLink": "https://kaleighspurio.github.io/react-employee-directory/",
     "toolsUsed": ["React", "JavaScript", "JSX", "Bootstrap", "HTML5", "CSS"],

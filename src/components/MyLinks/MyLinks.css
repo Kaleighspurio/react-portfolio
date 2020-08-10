@@ -2,6 +2,14 @@
     color: #52bdd0;
 }
 
-.icon {
+/* .caption:hover {
+    color: #52bdd0;
+} */
+
+.icon caption {
     color: #4f99fe;
+}
+
+.center {
+    text-align: center;
 }

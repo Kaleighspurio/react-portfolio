@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectData from '../../utils/Projects.json';
+import './Project.css';
 
 export default function Project() {
   const imageStyle = {
@@ -8,26 +9,27 @@ export default function Project() {
   };
 
   return (
-    <div className="container">
+    <div className="container mb-6">
       {ProjectData.map((project) => (
         <div key={project.id} className="level columns project-div my-4">
           <div className="column is-3 is-centered">
-            <h3 className="title is-4">{project.projectName}</h3>
+            <h3 className="project-title">{project.projectName}</h3>
             <img
               style={imageStyle}
               src={process.env.PUBLIC_URL + project.image}
               alt={project.projectName}
+              className="project-img"
             />
           </div>
           <div className="column">
             <div className="columns">
               <div className="column is-7">
-                <p className="white-font is-size-7-mobile">
+                <p className="white-font is-size-7-mobile description">
                   {project.projectDescription}
                 </p>
                 <div className="columns">
                   <a
-                    className="column is-6 mt-4"
+                    className="column mt-4 app-link"
                     href={project.deployedLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -35,7 +37,7 @@ export default function Project() {
                     View the app
                   </a>
                   <a
-                    className="column is-6 mt-4"
+                    className="column mt-4 app-link"
                     href={project.repoLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -47,7 +49,7 @@ export default function Project() {
               <div className="column is-5">
                 <dl>
                   {project.toolsUsed.map((tool) => (
-                    <li key={tool} className="is-size-7-mobile">
+                    <li key={tool} className="is-size-7-mobile tool-list">
                       {tool}
                     </li>
                   ))}

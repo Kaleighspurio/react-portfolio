@@ -4,7 +4,13 @@
     bottom: 0;
     overflow: hidden;
     background-color: #000;
-    border-top: 2px solid #c960d9;
+    border-top: 2px solid #e393fc;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.about-me-section {
+    text-align: right;
 }
 
 .email {

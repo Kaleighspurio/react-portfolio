@@ -1,0 +1,37 @@
+.project-title {
+    color: #e393fc;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.tool-list {
+    color: #52bdd0;
+    font-size: 16px;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+}
+
+.app-link {
+    color: #4f99fe;
+    /* border: 1px #4f99fe solid; */
+    border-radius: 30px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+.app-link:hover {
+    color: #e393fc;
+    font-size: 23px;
+}
+
+.description {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+

@@ -4,9 +4,9 @@ import './Pages.css';
 
 export default function About() {
   return (
-    <section className="section pt-1 mb-6">
+    <section className="section pt-1 mb-6 about-me-section">
       <div className="container columns">
-        <div className="column is-6">
+        <div className="column">
           <img
             src={process.env.PUBLIC_URL + '/assets/images/MyPicture.jpg'}
             alt="Me"
@@ -14,8 +14,9 @@ export default function About() {
             className="my-pic"
           />
         </div>
-        <div className="column">
-          <p>
+
+        <div className="column is-6">
+          <p className="about-me">
             My name is Kaleigh Spurio and I am excited to delve down a career
             path as a Full Stack Web Developer. I hold a Bachelor of Arts in
             Teaching, and a Masters of Education which have provided me with a
@@ -34,9 +35,9 @@ export default function About() {
             excited to leverage my skills and in a fast-paced and collaborative
             team of developers.
           </p>
-          <MyLinks />
         </div>
       </div>
+      <MyLinks />
     </section>
   );
 }

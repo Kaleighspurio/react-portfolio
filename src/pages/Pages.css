@@ -1,5 +1,6 @@
 #project-title {
     color: #4f99fe;
+    font-size: 30px;
 }
 
 .my-pic {
@@ -9,4 +10,10 @@
 
 .section {
     margin-top: 30px;
+}
+
+.about-me {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: bold;
+    text-align: left;
 }
