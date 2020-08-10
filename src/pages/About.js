@@ -1,4 +1,5 @@
 import React from 'react';
+import MyLinks from '../components/MyLinks';
 
 export default function About() {
   return (
@@ -25,6 +26,7 @@ export default function About() {
             excited to leverage my skills and in a fast-paced and collaborative
             team of developers.
           </p>
+          <MyLinks />
         </div>
       </section>
     </body>

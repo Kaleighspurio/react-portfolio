@@ -1,5 +1,12 @@
 import React from 'react';
+import Project from '../components/Project';
 
 export default function Portfolio() {
-    return <p>Portfolio</p>
+    return (
+    <div>
+        <p>Portfolio</p>
+        <Project />
+    </div>
+    
+    );
 }

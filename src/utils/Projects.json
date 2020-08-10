@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "projectName": "Trivia Quiz",
+    "projectDescription": "This is a front end React application that functions as a trivia quiz game using the Open Trivia Database API. The user is prompted to select a category for their quiz, or else can be given questions from a random assortment of categories. Once the user selects their choice, 15 multiple choice questions are displayed. The user answers their questions and, after clicking the button to indicate they are done, if all questions are answered, the score is calculated and displayed.  Also, all of the correct answers appear below each question- styled to indicate whether the user answered them right or wrong by using either red or green font.",
+    "repoLink": "https://github.com/Kaleighspurio/react-quiz-game",
+    "deployedLink": "https://kaleighspurio.github.io/react-quiz-game/",
+    "toolsUsed": [
+      "React",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Open Trivia Database API",
+      "axios",
+      "Bulma",
+      "js-base64"
+    ],
+    "image": "/images/TriviaQuiz.png"
+  },
+  {
+    "id": 2,
+    "projectName": "The Recipe Box",
+    "projectDescription": "This full-stack app utilze a SQL database to store recipes that the user can view. Users can also search for recipes in using multiple different search parameters, add new recipes of their own, comment on recipes, email a recipe to someone and share recipes on social media. This application also has a 'Favorites' recipe page that shows the most 'liked' recipes. It is deployed on Heroku.",
+    "repoLink": "https://github.com/Kaleighspurio/Project2-Recipe-Box",
+    "deployedLink": "https://fast-mountain-43531.herokuapp.com/index.html",
+    "toolsUsed": [
+      "JavaScript",
+      "Node.js",
+      "MySQL",
+      "Sequelize",
+      "Express",
+      "Express-fileupload",
+      "Bootstrap",
+      "Nodemailer",
+      "CSS",
+      "HTML5"
+    ],
+    "image": "/images/RecipeBox.png"
+  },
+  {
+    "id": 3,
+    "projectName": "Burger App",
+    "projectDescription": "This application is a simple full-stack application utilizing a MySQL database. It lists burgers that can be devoured. When the user clicks the 'Devour it' button, the burger is then moved over onto the Devoured Burger list. The user may input new burgers in the form, which will then update the Burgers-to-Devour list. The burger information is all rendered through server-side rendering using express-handlebars.",
+    "repoLink": "https://github.com/Kaleighspurio/burger",
+    "deployedLink": "https://protected-springs-53094.herokuapp.com/",
+    "toolsUsed": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Express-Handlebars",
+      "Small custom ORM",
+      "HTML5",
+      "CSS"
+    ],
+    "image": "./images/BurgerApp.png"
+  },
+  {
+    "id": 4,
+    "projectName": "Employee Directory",
+    "projectDescription": "This is a simple React application that displays a table of employee data that can be filtered by employee role and sorted alphabetically or by id number.",
+    "repoLink": "https://github.com/Kaleighspurio/react-employee-directory",
+    "deployedLink": "https://kaleighspurio.github.io/react-employee-directory/",
+    "toolsUsed": ["React", "JavaScript", "JSX", "Bootstrap", "HTML5", "CSS"],
+    "image": "./images/EmployeeDirectory.png"
+  },
+  {
+    "id": 5,
+    "projectName": "Weather Dash",
+    "projectDescription": "This application utilizes the OpenWeatherAPI to obtain information about the current and 5 day forecast for the location that a user searches for. Upon the user entering a town and selecting a state, and the current weather and 5 day forecast elements will be dynamically created and appended to the webpage to display the weather information for the location searched. The user's last search is saved in local storage so that on revisiting or reloading the page, the same request is made of the API and the current and 5 day weather forecast are displayed.",
+    "repoLink": "https://github.com/Kaleighspurio/day-scheduler",
+    "deployedLink": "https://kaleighspurio.github.io/weather-dashboard/",
+    "toolsUsed": [
+      "JavaScript",
+      "jQuery",
+      "OpenWeatherAPI",
+      "Bulma",
+      "HTML5",
+      "CSS"
+    ],
+    "image": "./images/Weather-dashboard.png"
+  },
+  {
+    "id": 6,
+    "projectName": "Booze and Brews",
+    "projectDescription": "This Front-end application utilizes a few free APIs (OpenBrewerDB, CocktailDB, static GoogleMapsAPI) to allow the user to search for cocktail recipes by an ingredient or to find breweries by location.",
+    "repoLink": "https://github.com/LynnBoudreau/ProjectOne",
+    "deployedLink": "https://lynnboudreau.github.io/ProjectOne/",
+    "toolsUsed": [
+      "JavaScript",
+      "jQuery",
+      "Bulma",
+      "OpenBreweryDB",
+      "GoogleMapsAPI",
+      "CocktailDB",
+      "HTML5",
+      "CSS"
+    ],
+    "image": "./images/BoozeAndBrews.png"
+  }
+]
