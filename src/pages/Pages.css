@@ -1,6 +1,10 @@
+#project-title {
+    color: #4f99fe;
+}
 
 .my-pic {
     padding: 10px;
+    border-radius: 35px;
 }
 
 .section {

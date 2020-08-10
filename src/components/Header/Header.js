@@ -1,9 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
 export default function Header() {
   const [activePage, setActivePage] = useState('about');
+
+  useEffect(() => {
+    console.log(window.location.pathname);
+    if (window.location.pathname === '/' || window.location.pathname === '/about') {
+      setActivePage('about');
+    } else {
+      setActivePage('portfolio')
+    }
+  }, [])
 
   const handleSwitchToAbout = () => {
     setActivePage('about');

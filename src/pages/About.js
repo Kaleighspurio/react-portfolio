@@ -4,9 +4,9 @@ import './Pages.css';
 
 export default function About() {
   return (
-    <section className="section pt-1">
+    <section className="section pt-1 mb-6">
       <div className="container columns">
-        <div className="column">
+        <div className="column is-6">
           <img
             src={process.env.PUBLIC_URL + '/assets/images/MyPicture.jpg'}
             alt="Me"
@@ -34,7 +34,6 @@ export default function About() {
             excited to leverage my skills and in a fast-paced and collaborative
             team of developers.
           </p>
-
           <MyLinks />
         </div>
       </div>
