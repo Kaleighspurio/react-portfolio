@@ -15,7 +15,7 @@
       "Bulma",
       "js-base64"
     ],
-    "image": "/images/TriviaQuiz.png"
+    "image": "/assets/images/TriviaQuiz.png"
   },
   {
     "id": 2,
@@ -35,7 +35,7 @@
       "CSS",
       "HTML5"
     ],
-    "image": "/images/RecipeBox.png"
+    "image": "/assets/images/RecipeBox.png"
   },
   {
     "id": 3,
@@ -53,7 +53,7 @@
       "HTML5",
       "CSS"
     ],
-    "image": "./images/BurgerApp.png"
+    "image": "/assets/images/BurgerApp.png"
   },
   {
     "id": 4,
@@ -62,7 +62,7 @@
     "repoLink": "https://github.com/Kaleighspurio/react-employee-directory",
     "deployedLink": "https://kaleighspurio.github.io/react-employee-directory/",
     "toolsUsed": ["React", "JavaScript", "JSX", "Bootstrap", "HTML5", "CSS"],
-    "image": "./images/EmployeeDirectory.png"
+    "image": "/assets/images/EmployeeDirectory.png"
   },
   {
     "id": 5,
@@ -78,7 +78,7 @@
       "HTML5",
       "CSS"
     ],
-    "image": "./images/Weather-dashboard.png"
+    "image": "/assets/images/Weather-dashboard.png"
   },
   {
     "id": 6,
@@ -96,6 +96,6 @@
       "HTML5",
       "CSS"
     ],
-    "image": "./images/BoozeAndBrews.png"
+    "image": "/assets/images/BoozeAndBrews.png"
   }
 ]

@@ -33,7 +33,7 @@ export default function Header() {
     <section className="hero is-medium">
       <img
       className="img"
-        src={process.env.PUBLIC_URL + './images/HeaderImage.jpg'}
+        src={process.env.PUBLIC_URL + '/assets/images/HeaderImage.jpg'}
         alt="Open laptop"
       />
       <div className="navtabs">

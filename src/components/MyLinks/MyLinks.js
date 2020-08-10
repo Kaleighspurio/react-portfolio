@@ -5,7 +5,7 @@ export default function MyLinks() {
   return (
     <div className="my-6">
       <a
-        href="https://github.com/Kaleighspurio"
+        href="https://www.linkedin.com/in/kaleigh-spurio-44348677/"
         target="_blank"
         rel="noopener noreferrer"
         className="mx-4"
@@ -21,7 +21,7 @@ export default function MyLinks() {
         <i className="fab fa-github-square fa-4x icon"></i>
       </a>
       <a
-        href="https://github.com/Kaleighspurio"
+        href={process.env.PUBLIC_URL + "/assets/KaleighSResume.pdf"}
         target="_blank"
         rel="noopener noreferrer"
         className="mx-4 mb-6"

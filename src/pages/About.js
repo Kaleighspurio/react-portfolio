@@ -1,5 +1,6 @@
 import React from 'react';
 import MyLinks from '../components/MyLinks/MyLinks';
+import './Pages.css';
 
 export default function About() {
   return (
@@ -7,9 +8,10 @@ export default function About() {
       <div className="container columns">
         <div className="column">
           <img
-            src={process.env.PUBLIC_URL + '/images/MyPicture.jpg'}
+            src={process.env.PUBLIC_URL + '/assets/images/MyPicture.jpg'}
             alt="Me"
             width="300px"
+            className="my-pic"
           />
         </div>
         <div className="column">
