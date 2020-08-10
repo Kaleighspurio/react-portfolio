@@ -1,5 +1,5 @@
 import React from 'react';
-import MyLinks from '../components/MyLinks';
+import MyLinks from '../components/MyLinks/MyLinks';
 
 export default function About() {
   return (

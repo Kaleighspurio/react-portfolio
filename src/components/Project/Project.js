@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectData from '../utils/Projects.json';
+import ProjectData from '../../utils/Projects.json';
 
 export default function Project() {
   const imageStyle = {
