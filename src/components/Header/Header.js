@@ -39,7 +39,7 @@ export default function Header() {
   };
 
   return (
-    <section className="hero is-medium">
+    <section className="hero is-medium header-container">
       <img
       className="img"
         src={process.env.PUBLIC_URL + '/assets/images/HeaderImage.jpg'}
