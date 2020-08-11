@@ -15,7 +15,7 @@ export default function About() {
           />
         </div>
         <div className="column is-6">
-          <p className="about-me">
+          <p className="about-me is-size-5-desktop">
             My name is Kaleigh Spurio and I am excited to delve down a career
             path as a Full Stack Web Developer. I hold a Bachelor of Arts in
             Teaching, and a Masters of Education which have provided me with a
