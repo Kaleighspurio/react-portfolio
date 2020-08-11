@@ -7,10 +7,10 @@ export default function Header() {
 
   useEffect(() => {
     console.log(window.location.pathname);
-    if (window.location.pathname === '/' || window.location.pathname === '/about') {
-      setActivePage('about');
+    if (window.location.pathname === '/portfolio') {
+      setActivePage('portfolio');
     } else {
-      setActivePage('portfolio')
+      setActivePage('about')
     }
   }, [])
 
