@@ -7,7 +7,7 @@ export default function Header() {
 
   useEffect(() => {
     console.log(window.location.pathname);
-    if (window.location.pathname === '/portfolio') {
+    if (window.location.pathname === '/react-portfolio/portfolio') {
       setActivePage('portfolio');
     } else {
       setActivePage('about')
@@ -25,13 +25,13 @@ export default function Header() {
   const displayLink = () => {
     if (activePage === 'about') {
       return (
-        <Link to="/portfolio" id="project-link" className="link" onClick={handleSwitchToProjects}>
+        <Link to="/react-porfolio/portfolio" id="project-link" className="link" onClick={handleSwitchToProjects}>
           View Projects
         </Link>
       );
     } else if (activePage === 'portfolio') {
       return (
-        <Link to="/" className="link" onClick={handleSwitchToAbout}>
+        <Link to="/react-portfolio/about" className="link" onClick={handleSwitchToAbout}>
           About Me
         </Link>
       );
