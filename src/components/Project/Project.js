@@ -3,10 +3,6 @@ import ProjectData from '../../utils/Projects.json';
 import './Project.css';
 
 export default function Project() {
-  const imageStyle = {
-    width: '90%',
-    maxWidth: '300px',
-  };
 
   return (
     <div className="container mb-6">
@@ -15,7 +11,6 @@ export default function Project() {
           <div className="column is-3 is-centered">
             <h3 className="project-title">{project.projectName}</h3>
             <img
-              style={imageStyle}
               src={process.env.PUBLIC_URL + project.image}
               alt={project.projectName}
               className="project-img"
