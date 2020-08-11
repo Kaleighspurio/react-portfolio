@@ -5,7 +5,7 @@ import './Pages.css';
 export default function About() {
   return (
     <section className="section pt-1 mb-6 about-me-section">
-      <div className="container columns">
+      <div className="container columns has-text-centered-mobile">
         <div className="column">
           <img
             src={process.env.PUBLIC_URL + '/assets/images/MyPicture.jpg'}

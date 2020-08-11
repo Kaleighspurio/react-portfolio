@@ -27,7 +27,7 @@ export default function Project() {
                 <p className="white-font is-size-7-mobile description">
                   {project.projectDescription}
                 </p>
-                <div className="columns">
+                <div className="columns is-centered">
                   <a
                     className="column mt-4 app-link"
                     href={project.deployedLink}
@@ -49,7 +49,7 @@ export default function Project() {
               <div className="column is-5">
                 <dl>
                   {project.toolsUsed.map((tool) => (
-                    <li key={tool} className="is-size-7-mobile tool-list">
+                    <li key={tool} className="is-size-7-mobile tool-list has-text-centered-mobile">
                       {tool}
                     </li>
                   ))}
