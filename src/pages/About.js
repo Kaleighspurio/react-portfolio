@@ -14,7 +14,6 @@ export default function About() {
             className="my-pic"
           />
         </div>
-
         <div className="column is-6">
           <p className="about-me">
             My name is Kaleigh Spurio and I am excited to delve down a career
