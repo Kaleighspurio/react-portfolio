@@ -20,7 +20,7 @@
   {
     "id": 2,
     "projectName": "The Recipe Box",
-    "projectDescription": "This full-stack app utilze a SQL database to store recipes that the user can view. Users can also search for recipes in using multiple different search parameters, add new recipes of their own, comment on recipes, email a recipe to someone and share recipes on social media. This application also has a 'Favorites' recipe page that shows the most 'liked' recipes. It is deployed on Heroku.",
+    "projectDescription": "This full-stack app utilzes a SQL database to store recipes that the user can view. Users can also search for recipes in using multiple different search parameters, add new recipes of their own, comment on recipes, email a recipe to someone and share recipes on social media. This application also has a 'Favorites' recipe page that shows the most 'liked' recipes. It is deployed on Heroku.",
     "repoLink": "https://github.com/Kaleighspurio/Project2-Recipe-Box",
     "deployedLink": "https://fast-mountain-43531.herokuapp.com/index.html",
     "toolsUsed": [
