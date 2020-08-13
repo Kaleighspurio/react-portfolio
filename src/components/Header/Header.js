@@ -25,13 +25,13 @@ export default function Header() {
   const displayLink = () => {
     if (activePage === 'about') {
       return (
-        <Link to="/react-porfolio/portfolio" id="project-link" className="link" onClick={handleSwitchToProjects}>
+        <Link to="/portfolio" id="project-link" className="link" onClick={handleSwitchToProjects}>
           View Projects
         </Link>
       );
     } else if (activePage === 'portfolio') {
       return (
-        <Link to="/react-portfolio/about" className="link" onClick={handleSwitchToAbout}>
+        <Link to="/about" className="link" onClick={handleSwitchToAbout}>
           About Me
         </Link>
       );
