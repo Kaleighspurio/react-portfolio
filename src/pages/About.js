@@ -23,7 +23,7 @@ export default function About() {
             field of education, and consider myself a life long learner. I
             recently earned a certificate in Full Stack Web Development from the
             University of New Hampshire Coding Bootcamp, where I developed
-            skills in JavaScript, HTML, CSS, Node.js, Express, SQL, MongoDB,
+            skills in JavaScript, HTML, CSS, Node.js, Express, MySQL, MongoDB,
             ReactJS and responsive website design.
             <br /> <br />
             Recognized for my excellent communication skills, quick learning and
@@ -31,7 +31,7 @@ export default function About() {
             team setting and have been a valued team member within all of my
             past professional environments. I’m passionate about creating web
             applications that provide a meaningful user experience and am very
-            excited to leverage my skills and in a fast-paced and collaborative
+            excited to leverage my skills in a fast-paced and collaborative
             team of developers.
           </p>
         </div>
