@@ -18,7 +18,7 @@ export default function Project() {
           </div>
           <div className="column">
             <div className="columns">
-              <div className="column is-7">
+              <div className="column is-8">
                 <p className="white-font is-size-7-mobile description">
                   {project.projectDescription}
                 </p>

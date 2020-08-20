@@ -16,6 +16,7 @@
     font-size: 16px;
     font-family: 'Thasadith', sans-serif;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .app-link {
@@ -37,6 +38,8 @@
     font-weight: bold;
     text-align: center;
     font-size: 17px;
+    text-align: justify;
+    margin: 0 10px 0 15px;;
 }
 
 .project-img {
