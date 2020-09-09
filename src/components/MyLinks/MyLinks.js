@@ -28,7 +28,7 @@ export default function MyLinks() {
         </figure>
       </a>
       <a
-        href={process.env.PUBLIC_URL + '/assets/KaleighSResume.pdf'}
+        href={process.env.PUBLIC_URL + '/assets/Kaleigh_Spurio_Resume(2).pdf'}
         target="_blank"
         rel="noopener noreferrer"
         className="mx-6 icon"
